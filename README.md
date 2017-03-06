@@ -1,15 +1,25 @@
-# zuznow-plugin-base
+# Zuznow-Plugin-Base
+
+
 Zuznow Base
 
-Zuznow extension to Cordova
-The plugin enable combining Cordova implementation and Zuznow extension for remote multipage execution 
-The plugin works with Cordova the default web view (both IOS and Android)
+Zuznow Extension to Cordova
 
-IOS notes:
-In addition to the plug-in files, the plug-in replace the default implementation of AppDelegate & MainViewController (add code based on default Cordova implementation)
+
+The plugin enables the combination of Cordova implementation and Zuznow extension for remote multipage execution. 
+The plugin works with the default web view of Cordova (for both iOS and Android).
+
+
+iOS Notes:
+In addition to the plugin files, the plugin replaces the default implementation of AppDelegate & MainViewController (add code based on default Cordova implementation).
+
+
 web view - UIWebView
 
-Android notes:
-In addition to the plug-in files, the plug-in replace the default implementation of MainActivity (add some code on default Cordova implementation)
+
+Android Notes:
+In addition to the plugin files, the plugin replaces the default implementation of MainActivity (add some code on default Cordova implementation).
+
+
 web view - SystemWebView
 
